@@ -2,15 +2,13 @@
 export libp4est, libsc, libt8
 
 using Zlib_jll
-using MPIPreferences
 using MicrosoftMPI_jll
-using MPIPreferences
 JLLWrappers.@generate_wrapper_header("t8code")
 JLLWrappers.@declare_library_product(libp4est, "libp4est-2-2-259-ec120.dll")
 JLLWrappers.@declare_library_product(libsc, "libsc-2-8-1-5-0b70.dll")
 JLLWrappers.@declare_library_product(libt8, "libt8-1-1-0-207-d6a74.dll")
 function __init__()
-    JLLWrappers.@generate_init_header(Zlib_jll, MPIPreferences, MicrosoftMPI_jll, MPIPreferences)
+    JLLWrappers.@generate_init_header(Zlib_jll, MicrosoftMPI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
         libp4est,
         "bin\\libp4est-2-2-259-ec120.dll",
