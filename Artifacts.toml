@@ -1,263 +1,253 @@
 [[t8code]]
 arch = "aarch64"
-git-tree-sha1 = "f0959a55c51bf2704827713cbac7882965f9b081"
+git-tree-sha1 = "913df2400d051a8a93668a31e3f0024fee6c1fc9"
 lazy = true
 mpi = "mpich"
 os = "macos"
 
     [[t8code.download]]
-    sha256 = "364fea7eb1fa7407db625013e33c9e8cde4c4aa9e5fb6f60d6e91801f6d25eaa"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.aarch64-apple-darwin-mpi+mpich.tar.gz"
+    sha256 = "01625f1a01a8b9e4e1d7a6b1cea48e68bc8d1dc05e71c56217fb69e83aeccb62"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.aarch64-apple-darwin-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "aarch64"
-git-tree-sha1 = "88aad881f679f7b01ccd1eb5aefebc2324345ae8"
+git-tree-sha1 = "366998d9dafedaf2c26e077a6085cb4d2893b3be"
 lazy = true
 mpi = "mpitrampoline"
 os = "macos"
 
     [[t8code.download]]
-    sha256 = "64929076a285e1f1c289a89477f2d30e7cb34ad067b0ba9ceb96ded0f3f9d774"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
+    sha256 = "b2b07b381f61864c66da2c8c63b7e723c0311fbd10b0367513f1064bdfcac80b"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.aarch64-apple-darwin-mpi+mpitrampoline.tar.gz"
 [[t8code]]
 arch = "aarch64"
-git-tree-sha1 = "1a17499734e70cb5bc28f38d091db0ed7083bba1"
+git-tree-sha1 = "9ae8c4427ea7f149a0e1a4d8580b0259dd35cc9b"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "e6cf6937aa3c6b51b44fb12c7062f3d4c3ed9406d885a5dd5a77fc683083b73f"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.aarch64-linux-gnu-mpi+mpich.tar.gz"
+    sha256 = "44e2f281d52b1b7da47779fd0eec675c46ac6d165f3f004acd6fb298b892d8ae"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.aarch64-linux-gnu-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "aarch64"
-git-tree-sha1 = "0b6b43ba56e8f3e7dc12e118d33c0b7889fc1fce"
+git-tree-sha1 = "eb32d1de9e5262db6aadd68f8554b94957fc40a9"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "a3746e0f2ff1be4efcccc0ba3619758ed6dadf7f70997507b5bb80756d9a2d21"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.aarch64-linux-gnu-mpi+mpitrampoline.tar.gz"
+    sha256 = "88bd693040f0a700bb9d2668522947fce2cd9d54d1886ccfa11e7b378328753a"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.aarch64-linux-gnu-mpi+mpitrampoline.tar.gz"
 [[t8code]]
 arch = "aarch64"
-git-tree-sha1 = "cd8538e47e96e4ba30cc15b88b00b383142e9fbb"
+git-tree-sha1 = "3a1152d9091763fce6676a51227266dd7c5d4345"
 lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "206476233caebad878f26997528c72b553a0572d4c9e25a7c845bde00ea31736"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.aarch64-linux-musl-mpi+mpich.tar.gz"
+    sha256 = "53ac0936e063722e3dfa2e3d73dab21703673ecfedf99695a4bd16ea2a6103bd"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.aarch64-linux-musl-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "aarch64"
-git-tree-sha1 = "a9a388679fdad00a28e1bcd3cb46f3c48e93dfd1"
+git-tree-sha1 = "294fbf2d6c7e974f2a0fb5ee584b11a2be031a60"
 lazy = true
 mpi = "mpich"
 os = "freebsd"
 
     [[t8code.download]]
-    sha256 = "cb487d05470605390750fc2df3fa1afdc951ea85b250adf098e622e4f7cababe"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.aarch64-unknown-freebsd-mpi+mpich.tar.gz"
+    sha256 = "9ed63fdb1d82dbb809a8e64935d1f81c0b4cd4bf91574bebad13c8ee7b7155c1"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.aarch64-unknown-freebsd-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "8d195a1db722a817103cef253e1caa738d77f2cb"
+git-tree-sha1 = "8376474c7dbaa53f7003b10f03bceb054ceda442"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "153017ce23dee3aca145903af0a982e398fc46dbdfe84f84e3296759697bf7b4"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.armv6l-linux-gnueabihf-mpi+mpich.tar.gz"
+    sha256 = "7130c17f4573291169d99aa2b499204a3049d21db6beda4066fc89dd4472d856"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.armv6l-linux-gnueabihf-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "d79c1ed4d940e3b8e3077020ef6340ebe68682ff"
+git-tree-sha1 = "48079aaca4eb1f3b90bdad18683d09b032096240"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "502f9406e8f74d1662e67204bfccbdc73df359dad495cbe57efb91ad64238163"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.armv6l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
+    sha256 = "8f6a4cfe0aed8bccba0c7483262ce10b462441d0b9a5c5542fdaed8f0e2a8b0d"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.armv6l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
 [[t8code]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "fba61c445d8507f85a7070d71c9fb7ad098d7f6f"
+git-tree-sha1 = "aa978534c44769addbd5c518747a0bd1fd6afcc2"
 lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "014425afbfe556afe7c80dc83b147948b3f47355ccdbbd85ca2c7ef6ce5e11d5"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.armv6l-linux-musleabihf-mpi+mpich.tar.gz"
+    sha256 = "a2eb7495411c54a664ec88c0657a270490bf4b0d087b34e2632c23281f4fb49d"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.armv6l-linux-musleabihf-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "9624f9c24acc98b4df38c293e5a6ffdf515d59ff"
+git-tree-sha1 = "2da774a0a8661c57bd9494c731f2b6e5e091a5e8"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "295efeda5b8b73fb62f5927c10e62f9f53e6e8cae9a5c7e9bb23e9f257dc2557"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.armv7l-linux-gnueabihf-mpi+mpich.tar.gz"
+    sha256 = "f469fc781b4e14c5ad9eae8cb243f4268eb55037f89cebda650035de993b2b9d"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.armv7l-linux-gnueabihf-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "fd6c9bc10f344c342c7aba50e9a40bc502893b06"
+git-tree-sha1 = "edb1332e0357c0817674ef01863f3f22bbe174a8"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "d98010c99c0177ae9d8af25839802947b88717d3de31bb73fce4ae216c8d67b2"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.armv7l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
+    sha256 = "f5e6ad6b9a172d2bda49c9f972390b666eba05380182a6b9a40319592d111dbf"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.armv7l-linux-gnueabihf-mpi+mpitrampoline.tar.gz"
 [[t8code]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "e20cfeb70957147b470316289015b191a14c109b"
+git-tree-sha1 = "c19cfd4e416724806abe57d99980c3f2e1ca16c5"
 lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "6e5377a44847d47b17e5d1df6f30f7e78a7b281ee59e5dfc72a987dd44f20e97"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.armv7l-linux-musleabihf-mpi+mpich.tar.gz"
+    sha256 = "5b7d8156bef45b35f4d1b51d4f573c408a24bae9113ade6d3edfe85dbba3e201"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.armv7l-linux-musleabihf-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "i686"
-git-tree-sha1 = "fb01dd0ec949a9ceaf39b28b4c7f6628dfa43ac6"
+git-tree-sha1 = "379b906a88cc89bd3319bb1ee3fa51727f5e9bf4"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "0f8187324f8a8150c654a8beded4ab4842756725c39c76fb61c4d6a1e9a8b410"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.i686-linux-gnu-mpi+mpich.tar.gz"
+    sha256 = "54e05600e5b5e84d21a5d156d9f37df46d8929e3894b3c2b29b5c96f1b2454ea"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.i686-linux-gnu-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "i686"
-git-tree-sha1 = "577b21b5a2be1ee34f30c6893dc9e858cc17766f"
+git-tree-sha1 = "c93e9741dff95601b15c4e52bb0f9546c684dd93"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "d6ca1e70e7335bfec398cdefe08d5a417e16f1e5e7037895b7e2dbde371fe257"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.i686-linux-gnu-mpi+mpitrampoline.tar.gz"
+    sha256 = "288f06b100c08b818b4515079684a6d5b1c382b27b45bd5bf4b4b9b9526711c5"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.i686-linux-gnu-mpi+mpitrampoline.tar.gz"
 [[t8code]]
 arch = "i686"
-git-tree-sha1 = "3c620979924f43aae0b2dbbedd2d3bed3256d5eb"
+git-tree-sha1 = "afd2af7826cf9f2f507d79a408299df184119987"
 lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "422c546590ffdd99b237978b99ff55fd54160bb1344bd35fb0e39fe5ee36968f"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.i686-linux-musl-mpi+mpich.tar.gz"
+    sha256 = "017cc60e7dff237710240fca055025450fdfea323d88854032fbeaf7034a3279"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.i686-linux-musl-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "powerpc64le"
-git-tree-sha1 = "111c5a0c78453fac4ff98bdfcecaa1502b3ce2f9"
+git-tree-sha1 = "fcda32254362b50a70f0a0906a7c2af774584c21"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "f31750621123dc267b4d781c367e00dda0e0b7ea4d5234cf0362b95b7b7e69af"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.powerpc64le-linux-gnu-mpi+mpich.tar.gz"
+    sha256 = "1a55fa014c6804db7eb21a7a50aea5d08608d7d26935d335a46093cadf3f4540"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.powerpc64le-linux-gnu-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "powerpc64le"
-git-tree-sha1 = "d7ddba69a0bbc5a43c8f18d237d72b7349387e5c"
+git-tree-sha1 = "d13ec62e00091f6008fabfc8b90c9ca7c699fc31"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "c40db8563dfea807b900634d7dc6a9b914ac8735844ee5a69e89290225663366"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.powerpc64le-linux-gnu-mpi+mpitrampoline.tar.gz"
+    sha256 = "573dd8a2520ec030e9f554da7aaf707e069a8c8f68330cd83560ced103cf7242"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.powerpc64le-linux-gnu-mpi+mpitrampoline.tar.gz"
 [[t8code]]
 arch = "x86_64"
-git-tree-sha1 = "dbd977958edeeabc8371792a886dd5651e12dc62"
+git-tree-sha1 = "ad475941a44bb0224cf56359ed38a77741a45c1e"
 lazy = true
 mpi = "mpich"
 os = "macos"
 
     [[t8code.download]]
-    sha256 = "a314e60f33e9ad6f779a35e278d84990995793d5b0f4ce20263956726a5ab334"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.x86_64-apple-darwin-mpi+mpich.tar.gz"
+    sha256 = "c1926dc4568afb4a65ec989e5684c2985988057f07cf38f9be7406bdef592a3a"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.x86_64-apple-darwin-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "x86_64"
-git-tree-sha1 = "e47e60b6663c0991a734d286830f9cd155b26edc"
+git-tree-sha1 = "f2395b2ea7fa89e76885515447e2a01e33fafcf5"
 lazy = true
 mpi = "mpitrampoline"
 os = "macos"
 
     [[t8code.download]]
-    sha256 = "4c5fb1e7489b6cab64d1ddbaee5c3a2302249113a855c5c764a4eed85e07de11"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
+    sha256 = "b8dc27c8baee99c60caef79a1c1a469f0ca18c867fffa3668cffaf2c80acd8bb"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.x86_64-apple-darwin-mpi+mpitrampoline.tar.gz"
 [[t8code]]
 arch = "x86_64"
-git-tree-sha1 = "c4e4aead2400d536f3c56b0e7750d09c9bc9036d"
+git-tree-sha1 = "a6b700a16e4a5e49841979447504e5ac2aafa1ec"
 lazy = true
 libc = "glibc"
 mpi = "mpich"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "0413dac63e9bba5c9b27c9a7850377b7946860956db538290849c47acd3a130d"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.x86_64-linux-gnu-mpi+mpich.tar.gz"
+    sha256 = "1fc5acb1e7e00004b80f70afec3fcc1cacf766983a1339182d667d69bf0e9e7f"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.x86_64-linux-gnu-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "x86_64"
-git-tree-sha1 = "a1b355fd352af13ba6d83b4a3b9a2562f626c2b1"
+git-tree-sha1 = "368b8620591f359915db3cdbfc545c7026d76d11"
 lazy = true
 libc = "glibc"
 mpi = "mpitrampoline"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "4dcc739b62c138c4cb3cd6bd745e3f8e830d35d1e395c8e124078e4db038af26"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.x86_64-linux-gnu-mpi+mpitrampoline.tar.gz"
+    sha256 = "7c7deac443248e22802395cfd5af8426be30a78d2252e7cf383fcfad16502bb6"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.x86_64-linux-gnu-mpi+mpitrampoline.tar.gz"
 [[t8code]]
 arch = "x86_64"
-git-tree-sha1 = "2012240d8ceb91f7e4bb8976ca80f45c296c85c2"
+git-tree-sha1 = "4197ae39c676aa002d56d73d5c3a18006651ffee"
 lazy = true
 libc = "musl"
 mpi = "mpich"
 os = "linux"
 
     [[t8code.download]]
-    sha256 = "a0eb3048b1524d6fe24da269294092d337df4d3bf0c6ecb6ac0894c73a0889dc"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.x86_64-linux-musl-mpi+mpich.tar.gz"
+    sha256 = "e28b0634083a35f8fbf1d47e3034ca0e6e4b15f38211c68e1d7b0be78b72e7d1"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.x86_64-linux-musl-mpi+mpich.tar.gz"
 [[t8code]]
 arch = "x86_64"
-git-tree-sha1 = "6483f20952d4e8437d1f65a1eba51d9d5ebd68b2"
+git-tree-sha1 = "2895c77ded37cc3bb43df07d571caa91e04d6bd4"
 lazy = true
 mpi = "mpich"
 os = "freebsd"
 
     [[t8code.download]]
-    sha256 = "e261fb3345249a3c304efdf10dace171bd6de6e35e6fe2b03b2a092ceb0600ac"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
-[[t8code]]
-arch = "x86_64"
-git-tree-sha1 = "f76008e44bac9d00d4883515e531c950cc0320c3"
-lazy = true
-mpi = "microsoftmpi"
-os = "windows"
-
-    [[t8code.download]]
-    sha256 = "ec9491ab6f1fccfa63de63b005fd22eb79011f521f1c093906ac90bd6b243775"
-    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v3.0.1+0/t8code.v3.0.1.x86_64-w64-mingw32-mpi+microsoftmpi.tar.gz"
+    sha256 = "804f99943dd9c32ec4d70eb365adad0648cb598ad14e0f5947d9587ac47882a3"
+    url = "https://github.com/JuliaBinaryWrappers/t8code_jll.jl/releases/download/t8code-v4.0.0+0/t8code.v4.0.0.x86_64-unknown-freebsd-mpi+mpich.tar.gz"
