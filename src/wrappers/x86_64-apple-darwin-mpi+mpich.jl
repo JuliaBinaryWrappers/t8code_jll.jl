@@ -6,7 +6,7 @@ using MPICH_jll
 JLLWrappers.@generate_wrapper_header("t8code")
 JLLWrappers.@declare_library_product(libp4est, "@rpath/libp4est.3.0.0.dylib")
 JLLWrappers.@declare_library_product(libsc, "@rpath/libsc.3.0.0.dylib")
-JLLWrappers.@declare_library_product(libt8, "@rpath/libt8.4.0.0.dylib")
+JLLWrappers.@declare_library_product(libt8, "@rpath/libt8.4.0.0-26.02-dirty.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(Zlib_jll, MPICH_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
