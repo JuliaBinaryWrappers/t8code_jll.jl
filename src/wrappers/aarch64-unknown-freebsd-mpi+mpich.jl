@@ -4,9 +4,9 @@ export libp4est, libsc, libt8
 using Zlib_jll
 using MPICH_jll
 JLLWrappers.@generate_wrapper_header("t8code")
-JLLWrappers.@declare_library_product(libp4est, "libp4est.so.3.0.0")
-JLLWrappers.@declare_library_product(libsc, "libsc.so.3.0.0")
-JLLWrappers.@declare_library_product(libt8, "libt8.so.4.0.0-26.05-dirty")
+JLLWrappers.@declare_library_product(libp4est, "libp4est.so.4.0.0")
+JLLWrappers.@declare_library_product(libsc, "libsc.so.4.0.0")
+JLLWrappers.@declare_library_product(libt8, "libt8.so.4.0.0-26.06-dirty")
 function __init__()
     JLLWrappers.@generate_init_header(Zlib_jll, MPICH_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
