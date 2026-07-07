@@ -6,7 +6,7 @@ using OpenMPI_jll
 JLLWrappers.@generate_wrapper_header("t8code")
 JLLWrappers.@declare_library_product(libp4est, "@rpath/libp4est.4.0.0.dylib")
 JLLWrappers.@declare_library_product(libsc, "@rpath/libsc.4.0.0.dylib")
-JLLWrappers.@declare_library_product(libt8, "@rpath/libt8.4.0.0-26.06-dirty.dylib")
+JLLWrappers.@declare_library_product(libt8, "@rpath/libt8.4.0.0-26.07-dirty.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(Zlib_jll, OpenMPI_jll, MPIPreferences)
     JLLWrappers.@init_library_product(
